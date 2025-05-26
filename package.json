@@ -1,0 +1,14 @@
+
+{
+  "name": "railway-brokex-executor",
+  "version": "1.0.0",
+  "main": "railway.js",
+  "scripts": {
+    "start": "node railway.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0"
+  }
+}
