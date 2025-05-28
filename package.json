@@ -1,14 +1,15 @@
-
 {
-  "name": "railway-brokex-executor",
+  "name": "brokex-pendingorder-runner",
   "version": "1.0.0",
-  "main": "railway.js",
+  "description": "Listener Brokex Market avec exécution WebSocket 5min à la demande",
+  "main": "server.js",
   "scripts": {
-    "start": "node railway.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^1.6.7",
     "dotenv": "^16.3.1",
-    "ethers": "^6.10.0"
+    "ethers": "^6.10.0",
+    "express": "^4.18.2"
   }
 }
